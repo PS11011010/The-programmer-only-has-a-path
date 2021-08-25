@@ -1,0 +1,20 @@
+{
+  "name": "JS",
+  "version": "1.0.0",
+  "description": "The-programmer-only-has-a-path (https://t.me/joinchat/W0QFtUT5EaE0ODYy)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PS11011010/The-programmer-only-has-a-path"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.js' --recursive --timeout 60000 --exit",
+    "test:interview": "mocha 'test/interview/*.js' --recursive --timeout 60000 --exit"
+  },
+  "keywords": [],
+  "author": "PS11011010",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.0"
+  }
+}
