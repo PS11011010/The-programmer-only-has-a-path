@@ -31,3 +31,7 @@ You can also use [test discovery](https://docs.python.org/2/library/unittest.htm
 > $ python -m unittest
 
 This will run all the test*.py modules inside the test package.
+
+___
+
+Python testing in [Visual Studio Code](https://code.visualstudio.com/docs/python/testing)
