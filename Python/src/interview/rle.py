@@ -5,25 +5,25 @@
 https://t.me/c/1533281926/20
 '''
 def RLE(s: str) -> str:
-  result = []
-  last_sym = None  # последний символ, что мы видели
-  count = 0  # и сколько мы его видели
+    result = []
+    last_sym = ''  # последний символ, что мы видели
+    count = 0  # и сколько мы его видели
 
-  # мы будем идти по строке и записывать в result при смене символа
-  for sym in (list(s) + [None]):  # последний None искусственно триггерит посленюю смену символа
+    # мы будем идти по строке и записывать в result при смене символа
+    # последний None искусственно триггерит посленюю смену символа
+    for sym in (list(s) + ['']):
 
-      if last_sym and sym != last_sym:  # если случилась смена символа
+        if sym != last_sym:  # если случилась смена символа
 
-          if count == 1:
-              result.append(last_sym)
-          else:
-              result.append(last_sym + str(count))
+            if last_sym:
+                result.append(last_sym + str(count)
+                              ) if count != 1 else result.append(last_sym)
 
-      	  # начнаем запоминать новый символ
-          count = 1
-          last_sym = sym
+            # начинаем запоминать новый символ
+            count = 1
+            last_sym = sym
 
-      else:  # символ просто повторился
-          count += 1  # ну ок, запомнили что символ видели на 1 раз больше
+        else:  # символ просто повторился
+            count += 1  # ну ок, запомнили что символ видели на 1 раз больше
 
-  return ''.join(result)
+    return ''.join(result)
