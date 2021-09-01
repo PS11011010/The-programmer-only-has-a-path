@@ -1,0 +1,26 @@
+{
+  "name": "TS",
+  "version": "1.0.0",
+  "description": "The-programmer-only-has-a-path (https://t.me/joinchat/W0QFtUT5EaE0ODYy)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PS11011010/The-programmer-only-has-a-path"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --testPathPattern=test",
+    "test:chaged-files": "jest -o --testPathPattern=test",
+    "test:interview": "jest --testPathPattern=test/interview"
+  },
+  "keywords": [],
+  "author": "PS11011010",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.10",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
+  }
+}
