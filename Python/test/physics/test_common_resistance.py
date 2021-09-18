@@ -21,10 +21,6 @@ class TestCommonResistance(unittest.TestCase):
         self.assertIsNone(common_resistance(-0.0008, -9, -105.8),
                           'При отрицательных аргументах вернулся непустой результат')
 
-    def test_empty_arr(self):
-        self.assertIsNone(
-            common_resistance(), 'При отсутствии аргументов вернулся непустой результат')
-
     def test_is_equal_one(self):
         self.assertEqual(common_resistance(1, 1, 1), 1/3)
 
