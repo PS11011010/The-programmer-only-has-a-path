@@ -11,6 +11,7 @@
     "build": "tsc",
     "test": "jest --testPathPattern=test",
     "test:chaged-files": "jest -o --testPathPattern=test",
+    "test:math": "jest --testPathPattern=test/math",
     "test:interview": "jest --testPathPattern=test/interview"
   },
   "keywords": [],
