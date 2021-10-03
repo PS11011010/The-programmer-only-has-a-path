@@ -1,5 +1,6 @@
 # The-programmer-only-has-a-path
 
+[![JavaScript test](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/JS.yml/badge.svg)](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/JS.yml)
 [![TypeScript test](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/TS.yml/badge.svg)](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/TS.yml)
 [![Python test](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/Python.yml/badge.svg)](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/Python.yml)
 
