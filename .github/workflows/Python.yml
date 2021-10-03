@@ -29,13 +29,8 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
-
-    - name: Install dependencies 🔧
-      run: |
-        python -m pip install --upgrade pip
-        pip install unittest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     
     - name: Test with unittest 🔨
+      working-directory: ./Python
       run: |
-        python -m unittest discover -s ./test
+        python -m unittest discover -v -s ./test
