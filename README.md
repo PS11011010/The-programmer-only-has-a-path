@@ -1,6 +1,7 @@
 # The-programmer-only-has-a-path
 
-[![TypeScript test](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/main.yml/badge.svg)](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/main.yml)
+[![TypeScript test](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/TS.yml/badge.svg)](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/TS.yml)
+[![Python test](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/Python.yml/badge.svg)](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/Python.yml)
 
 ### The repo for tasks from "[The programmer only has a path](https://t.me/joinchat/W0QFtUT5EaE0ODYy)" telegram channel. 
 
