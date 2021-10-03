@@ -31,5 +31,6 @@ jobs:
         python-version: 3.9
     
     - name: Test with unittest 🔨
+      working-directory: ./Python
       run: |
         python -m unittest discover -s ./test
