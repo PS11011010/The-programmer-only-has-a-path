@@ -2,7 +2,7 @@
 name: TypeScript test
 
 # целевые события для запуска
-# в данном случае это push и pull_request, в ветку master
+# в данном случае это push и pull_request, в ветку main
 on:
   push:
     branches: [ main ]
