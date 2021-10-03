@@ -1,4 +1,4 @@
-import { validCurvedBrackets } from "../../src/string/bracket";
+import { validCurvedBrackets } from "../../src/string/Bracket";
 
 describe('Validate Curved Brackets', () => {
     describe('Valid string', () => {
