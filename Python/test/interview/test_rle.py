@@ -18,8 +18,8 @@ class TestRLE(unittest.TestCase):
         self.assertEqual(RLE(data), data)
 
     def test_long_string(self):
-        data = 'AAABBCDDDGGGGGGGKKKLMMNNOOOP'
-        result = 'A3B2CD3G7K3LM2N2O3P'
+        data = 'AAABBCDDDGGGGGGGKKKLMMNNOOOPZ'
+        result = 'A3B2CD3G7K3LM2N2O3PZ'
 
         self.assertEqual(RLE(data), result)
 

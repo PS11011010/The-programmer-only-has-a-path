@@ -10,7 +10,7 @@ describe('Speed', () => {
 
         it('Correct data', () => {
             expect(BikeSpeedByWheel(1, 574.5344644885014)).toBe(1);
-            expect(BikeSpeedByWheel(29, 42)).toBeTruthy();
+            expect(BikeSpeedByWheel(13, 42)).toBeTruthy();
         })
     })
 })
