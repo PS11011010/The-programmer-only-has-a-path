@@ -24,8 +24,8 @@ describe('RLE', function () {
    });
 
    it('Сложная длинная строка', () => {
-      const data = 'AAABBCDDDGGGGGGGKKKLMMNNOOOP';
-      const result = 'A3B2CD3G7K3LM2N2O3P';
+      const data = 'AAABBCDDDGGGGGGGKKKLMMNNOOOPZ';
+      const result = 'A3B2CD3G7K3LM2N2O3PZ';
 
       assert.equal(RLE.RLE(data), result);
       assert.equal(RLE.greedyRLE(data), result, 'Жадный алгоритм вернул неверный результат');
