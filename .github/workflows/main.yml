@@ -6,8 +6,12 @@ name: TypeScript test
 on:
   push:
     branches: [ main ]
+    paths:
+      - TS/**
   pull_request:
     branches: [ main ]
+    paths:
+      - TS/**
 
 # выполняемые действия
 jobs:
