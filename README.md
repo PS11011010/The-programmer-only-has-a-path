@@ -1,4 +1,7 @@
 # The-programmer-only-has-a-path
+
+[![TypeScript test](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/main.yml/badge.svg)](https://github.com/PS11011010/The-programmer-only-has-a-path/actions/workflows/main.yml)
+
 ### The repo for tasks from "[The programmer only has a path](https://t.me/joinchat/W0QFtUT5EaE0ODYy)" telegram channel. 
 
  - [Python](./Python) directory contains the code for solving tasks in Python. You need to install Python (https://www.python.org/downloads/)
