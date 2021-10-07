@@ -9,6 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha 'test/**/*.js' --recursive --timeout 60000 --exit",
+    "test:math": "mocha 'test/math/*.js' --recursive --timeout 60000 --exit",
     "test:interview": "mocha 'test/interview/*.js' --recursive --timeout 60000 --exit"
   },
   "keywords": [],
