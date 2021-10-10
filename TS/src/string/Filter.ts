@@ -1,5 +1,4 @@
-const wordSeparator = ' ';
-const lineSeparator = '\n';
+import { wordSeparator, lineSeparator } from './common'
 
 /**
  * Интерфейс 1 предложения
