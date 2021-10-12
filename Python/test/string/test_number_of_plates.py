@@ -1,6 +1,6 @@
 import unittest
-from unittest import result
 from src.string.number_of_plates import number_of_plates, format_numbers
+
 
 class TestFormatNumbers(unittest.TestCase):
     def setUp(self):
@@ -18,6 +18,7 @@ class TestFormatNumbers(unittest.TestCase):
 
         self.assertEqual(format_numbers(numbers), result)
 
+
 class TestNumberOfPlates(unittest.TestCase):
     def setUp(self):
         pass
@@ -31,6 +32,7 @@ class TestNumberOfPlates(unittest.TestCase):
         result = '0-4, 1-15, 2-15, 3-14, 4-7, 5-4, 6-4, 7-4, 8-4, 9-4'
 
         self.assertEqual(number_of_plates(42), result)
+
 
 if __name__ == "__main__":
     unittest.main()
