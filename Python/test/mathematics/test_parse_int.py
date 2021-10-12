@@ -1,6 +1,6 @@
 import unittest
 import sys
-from src.math.parse_int import parse_int
+from src.mathematics.parse_int import parse_int
 
 class TestParseInt(unittest.TestCase):
     def setUp(self):
