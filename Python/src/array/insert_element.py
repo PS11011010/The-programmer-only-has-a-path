@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+__author__ = "PS11011010"
+
 def insert_element_into_sorted_array(arr, n):
     """
     Дан массив упорядоченных (по убыванию или по возрастанию) натуральных чисел.
