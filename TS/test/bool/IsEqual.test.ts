@@ -1,6 +1,6 @@
 import { deepEqual } from "../../src/bool/IsEqual";
 
-describe('Is equal', () => {
+describe('Deep equal', () => {
     describe('Primitives', () => {
         it('Equal data', () => {
             expect(deepEqual(true, true)).toBe(true);
