@@ -18,10 +18,13 @@ import { wordSeparator, emptySeparator } from "./common"
 const reversedWordsInText: (test: string) => string = (text) => {
     return text
         .split(wordSeparator)
-        .map((part) => part.split(emptySeparator).reverse().join(emptySeparator))
+        .map(reverseString)
         .join(wordSeparator)
 }
 
+const reverseString: (str: string) => string = str => str.split(emptySeparator).reverse().join(emptySeparator);
+
 export {
-    reversedWordsInText
+    reversedWordsInText,
+    reverseString
 }

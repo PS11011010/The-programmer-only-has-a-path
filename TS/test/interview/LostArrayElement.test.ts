@@ -1,4 +1,5 @@
 import { lostArrayElement, greedyLostArrayElement, getNormalArray } from '../../src/interview/LostArrayElement'
+import { shuffleArray } from '../../src/array/Shuffle'
 
 describe('Find Lost Array Element', () => {
    it('Empty array', () => {
@@ -37,17 +38,4 @@ describe('Find Lost Array Element', () => {
  */
 const prepareArray: (len: number, remove: number) => Array<number> = (len: number, remove: number) => {
    return shuffleArray(getNormalArray(len).filter((n: number) => n !== remove));
-}
-
-/**
- * Функция для перемешивания массива
- * @param array
- */
-const shuffleArray: (array: Array<number>) => Array<number> = (array: Array<number>) => {
-   for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-   }
-
-   return array;
 }
