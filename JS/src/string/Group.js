@@ -15,6 +15,7 @@
  *     ['l', 'l'],
  *     ['d', 'd']
  *  ]
+ * https://t.me/c/1533281926/237
  * @param {String} str 
  * @returns array
  * @author PS11011010
